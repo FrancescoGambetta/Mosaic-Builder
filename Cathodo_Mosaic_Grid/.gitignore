@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+
+*_grid_mosaic.png
+*_grid_mosaic_grid_labels.png
+*_grid_mosaic.png.json
+
+# Ignore all common image formats (case-insensitive)
+*.[pP][nN][gG]
+*.[jJ][pP][gG]
+*.[jJ][pP][eE][gG]
+*.[bB][mM][pP]
+*.[gG][iI][fF]
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[wW][eE][bB][pP]
+*.[hH][eE][iI][cC]
+*.[hH][eE][iI][fF]
+*.[rR][aA][wW]
+
+# Keep Input folder in git with only .gitkeep
+Input/*
+!Input/.gitkeep
